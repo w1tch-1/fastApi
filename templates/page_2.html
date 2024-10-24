@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% for name in names_age.values() %}
+    <ul>{{ name }} years old</ul>
+{% endfor %}
+    <h1>{{ result }}</h1>
+{% endblock %}
